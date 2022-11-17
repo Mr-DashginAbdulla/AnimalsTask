@@ -5,13 +5,13 @@ interface Type {
     requiredArea: number;
     mealType: string;
     type: "predator" | "herbivore";
-  };
+  }
 
 interface Animal extends Type {
     name: string;
     age: number;
     amountOfFood: number;
- };
+ }
 
 interface Settlement {
     animals:Animal[],
@@ -21,9 +21,8 @@ interface Settlement {
     animalType:  "predator" | "herbivore";
 }
 
-
 let wolf : Animal={
-    name: 'Jerry',
+    name: 'Coni',
     age: 10,
     amountOfFood: 15,
     typeName: 'wolf',

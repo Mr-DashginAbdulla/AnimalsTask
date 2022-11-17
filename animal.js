@@ -1,7 +1,5 @@
-;
-;
 var wolf = {
-    name: 'Jerry',
+    name: 'Coni',
     age: 10,
     amountOfFood: 15,
     typeName: 'wolf',
